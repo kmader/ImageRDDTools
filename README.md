@@ -13,6 +13,10 @@ The project is made up of code and notebooks. The code for the relevant tools is
 
 Naive read-all many times implementation (minimum shuffle, maximum reading)
 
+<p align="center">
+  <img src="rdd_charts/naive_rdd.svg?raw=true"/>
+</p>
+
 ![Naive reading approach](rdd_charts/naive_rdd.svg?raw=true)
 
 ### Approach 2 (Selected)
