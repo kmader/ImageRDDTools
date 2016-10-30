@@ -13,14 +13,14 @@ The project is made up of code and notebooks. The code for the relevant tools is
 
 Naive read-all many times implementation (minimum shuffle, maximum reading)
 
-![rdd_charts/naive_rdd.svg](Naive reading approach)
+![Naive reading approach](rdd_charts/naive_rdd.svg)
 
 ### Approach 2
 
 Grouping the files before reading
 
-![rdd_charts/naive_rdd.svg](Grouped reading approach)
+![Grouped reading approach](rdd_charts/naive_rdd.svg)
 
 ### Approach 3
 
-![rdd_charts/partial_rdd.svg](Partial reading approach)
+![Partial reading approach](rdd_charts/partial_rdd.svg)
