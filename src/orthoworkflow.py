@@ -47,7 +47,11 @@ def get_output_tiles(req_str):
 
 def calc_input_tiles(o_tile, n_size=1, delay=0):
     """
-    A simple 3x3 neighborhood with a delay second delay
+    A simple 3x3 neighborhood with a delay
+    :param o_tile: the output tile to start with
+    :param n_size: the size of the square to iterate through (1 -> 3x3, 2 -> 5x5, ...)
+    :param delay: the amount of time to pause before returning (simulate a rest api call)
+    :return: List[(output_tile, input_tile)]
     """
     time.sleep(DELAY_SCALE * delay)
     return [(o_tile, dest_tile_id(
